@@ -22,7 +22,8 @@
     [self setCustomTitle:@"微店简称"];
     [self.view addSubview:self.baseTableView];
     [self addLeftItem];
-    
+    //Git 第四次提交
+
 }
 
 #pragma mark - UITableViewDelegate & UITableViewDataSource
