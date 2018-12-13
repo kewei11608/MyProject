@@ -20,7 +20,7 @@
     [self setCustomTitle:@"设置"];
     [self addLeftItem];
     [self.view addSubview:self.tbView];
-    
+    //测试Git 提交---哈哈哈哈哈哈哈哈哈
 
 }
 
@@ -100,14 +100,6 @@
 {
     self.backtabar();
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
