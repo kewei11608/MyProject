@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TaskMainView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="423"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="房子" translatesAutoresizingMaskIntoConstraints="NO" id="ivF-YM-HoS">
+                    <rect key="frame" x="59" y="38" width="35" height="35"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="8OR-QM-ouv"/>
+                        <constraint firstAttribute="width" constant="35" id="UK9-82-E9T"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="5Rb-O1-wkx" appends="YES" id="ady-04-PGv"/>
+                    </connections>
+                </imageView>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="单据处理" translatesAutoresizingMaskIntoConstraints="NO" id="e2L-PP-NSP">
+                    <rect key="frame" x="170" y="38" width="35" height="35"/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="W62-Xp-fHp" appends="YES" id="4Wm-uz-Ji1"/>
+                    </connections>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="房源流通" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Udv-iu-lpP">
+                    <rect key="frame" x="47" y="90" width="58" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="16c-G6-GcL"/>
+                        <constraint firstAttribute="width" constant="58" id="Zqw-aQ-W6j"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.42877671630000003" green="0.42877671630000003" blue="0.42877671630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="账号冻结处理" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u2o-Ru-XFe">
+                    <rect key="frame" x="144" y="90" width="86" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.34862102589999999" green="0.34862102589999999" blue="0.34862102589999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="其他" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iSz-4P-Gp5">
+                    <rect key="frame" x="276" y="88" width="29" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.42877671630000003" green="0.42877671630000003" blue="0.42877671630000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="其他服务_灰" translatesAutoresizingMaskIntoConstraints="NO" id="0SC-Lc-H76">
+                    <rect key="frame" x="273" y="38" width="35" height="35"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Pjz-NA-RiV" appends="YES" id="62W-Pg-c9S"/>
+                    </connections>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="e2L-PP-NSP" firstAttribute="centerY" secondItem="ivF-YM-HoS" secondAttribute="centerY" id="5WW-kt-O5D"/>
+                <constraint firstItem="0SC-Lc-H76" firstAttribute="leading" secondItem="e2L-PP-NSP" secondAttribute="trailing" constant="68" id="7fv-fB-xFc"/>
+                <constraint firstItem="e2L-PP-NSP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DTM-hb-gDq"/>
+                <constraint firstItem="iSz-4P-Gp5" firstAttribute="top" secondItem="0SC-Lc-H76" secondAttribute="bottom" constant="15" id="G8v-7Y-3YH"/>
+                <constraint firstItem="e2L-PP-NSP" firstAttribute="height" secondItem="ivF-YM-HoS" secondAttribute="height" id="L8l-lL-T2S"/>
+                <constraint firstItem="iSz-4P-Gp5" firstAttribute="height" secondItem="u2o-Ru-XFe" secondAttribute="height" id="O6p-M0-VRQ"/>
+                <constraint firstItem="e2L-PP-NSP" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="Pc2-ts-8Ye"/>
+                <constraint firstItem="ivF-YM-HoS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="Se5-d9-NTV"/>
+                <constraint firstItem="e2L-PP-NSP" firstAttribute="leading" secondItem="ivF-YM-HoS" secondAttribute="trailing" constant="76" id="SuU-7i-5kb"/>
+                <constraint firstItem="u2o-Ru-XFe" firstAttribute="height" secondItem="Udv-iu-lpP" secondAttribute="height" id="ZOj-di-FG4"/>
+                <constraint firstItem="iSz-4P-Gp5" firstAttribute="centerX" secondItem="0SC-Lc-H76" secondAttribute="centerX" id="Zer-i7-1Ku"/>
+                <constraint firstItem="0SC-Lc-H76" firstAttribute="height" secondItem="e2L-PP-NSP" secondAttribute="height" id="e52-tp-xdV"/>
+                <constraint firstItem="u2o-Ru-XFe" firstAttribute="top" secondItem="e2L-PP-NSP" secondAttribute="bottom" constant="17" id="eLH-a7-xyV"/>
+                <constraint firstItem="Udv-iu-lpP" firstAttribute="top" secondItem="ivF-YM-HoS" secondAttribute="bottom" constant="17" id="q6a-px-m67"/>
+                <constraint firstItem="e2L-PP-NSP" firstAttribute="width" secondItem="ivF-YM-HoS" secondAttribute="width" id="rx1-7J-pbo"/>
+                <constraint firstItem="0SC-Lc-H76" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="38" id="t9T-Jf-93x"/>
+                <constraint firstItem="0SC-Lc-H76" firstAttribute="width" secondItem="e2L-PP-NSP" secondAttribute="width" id="vs9-D1-vnJ"/>
+                <constraint firstItem="0SC-Lc-H76" firstAttribute="top" secondItem="e2L-PP-NSP" secondAttribute="top" id="vxa-FS-mGX"/>
+                <constraint firstItem="u2o-Ru-XFe" firstAttribute="leading" secondItem="Udv-iu-lpP" secondAttribute="trailing" constant="39" id="wOW-Rl-uHr"/>
+                <constraint firstItem="Udv-iu-lpP" firstAttribute="centerX" secondItem="ivF-YM-HoS" secondAttribute="centerX" id="z86-LF-PSG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="accountImg" destination="e2L-PP-NSP" id="gsF-Mc-Xw1"/>
+                <outlet property="houseImg" destination="ivF-YM-HoS" id="FSY-8z-NRP"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="-61.5"/>
+        </view>
+        <tapGestureRecognizer id="W62-Xp-fHp">
+            <connections>
+                <action selector="clickTask:" destination="iN0-l3-epB" id="yFR-W2-ll2"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="5Rb-O1-wkx">
+            <connections>
+                <action selector="clickFirst:" destination="iN0-l3-epB" id="EGX-kI-80b"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="Pjz-NA-RiV">
+            <connections>
+                <action selector="clickOther:" destination="iN0-l3-epB" id="m3r-8l-EY4"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="其他服务_灰" width="63" height="63"/>
+        <image name="单据处理" width="65" height="63"/>
+        <image name="房子" width="33" height="35"/>
+    </resources>
+</document>

@@ -1,0 +1,28 @@
+{
+    "items": [
+              {
+              "title": "首页",
+              "className": "tab_home",
+              "image": "",
+              "image_hl": ""
+              },
+              {
+              "title": "直播",
+              "className": "tab_home",
+              "image": "",
+              "image_hl": ""
+              },
+              {
+              "title": "游戏",
+              "className": "tab_home",
+              "image": "",
+              "image_hl": ""
+              },
+              {
+              "title": "我的",
+              "className": "tab_home",
+              "image": "",
+              "image_hl": ""
+              }
+              ]
+}

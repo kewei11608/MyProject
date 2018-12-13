@@ -1,0 +1,6 @@
+framework module Pods_KuBoss {
+  umbrella header "Pods-KuBoss-umbrella.h"
+
+  export *
+  module * { export * }
+}
