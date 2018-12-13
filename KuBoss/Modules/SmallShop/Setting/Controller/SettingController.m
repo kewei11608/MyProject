@@ -21,6 +21,7 @@
     [self addLeftItem];
     [self.view addSubview:self.tbView];
     //测试Git 提交---哈哈哈哈哈哈哈哈哈
+    //测试Git 第二次更新a哈   哈啦啦啦啦
 
 }
 
