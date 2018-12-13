@@ -21,6 +21,7 @@
     [self addLeftItem];
     [self.view addSubview:self.scrollview];
     [self initUI];
+     //测试Git 第三次更新a哈   哈啦啦啦啦
 }
 -(void)initUI{
     UIImageView*bgimage=[[UIImageView alloc]initWithFrame:CGRectMake(0, 0, MSW, MSW/750*474)];
